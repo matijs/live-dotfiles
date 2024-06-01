@@ -6,5 +6,4 @@ jobs:
     name: Check
     runs-on: ubuntu-latest
     steps:
-      - name: Fail on accidental 'amend!', 'fixup!', or 'squash!' commits
-        uses: matijs/autosquash-blocker-action@v1.0.0
+      - uses: matijs/no-fixups-action@2fbb42f13f9cb3860fb578ac6524ed7fef5f678d #v1.0.1
