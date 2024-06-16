@@ -1,6 +1,8 @@
 # check whether the current user has a $HOME/bin and if so add it to the PATH
 [ -d "${HOME}/bin" ] && export PATH="${HOME}/bin:${PATH}";
 [ -d "${HOME}/.cargo/bin" ] && export PATH="${HOME}/.cargo/bin:${PATH}";
+# check for deno and add it to PATH if found
+[ -d "${HOME}/.deno" ] && export DENO_INSTALL="${HOME}/.deno" && export PATH="${DENO_INSTALL}/bin:${PATH}";
 # add node_modules/.bin as a relative path to the PATH
 export PATH="node_modules/.bin:${PATH}";
 # remove duplicates from the path
