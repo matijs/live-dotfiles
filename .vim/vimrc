@@ -97,13 +97,13 @@ augroup END
 " automatically re-read the file if it was changed outside of Vim
 set autoread
 
-" Use Gruvbox colorscheme
+" Use Rosé Pine colorscheme
 syntax enable
 set background=dark
 augroup filetype_any
   " clear previous autocmd's in the group
   autocmd!
-  autocmd VimEnter * ++nested colorscheme gruvbox
+  autocmd VimEnter * ++nested colorscheme rosepine
 augroup END
 
 " https://begriffs.com/posts/2019-07-19-history-use-vim.html

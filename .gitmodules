@@ -1,8 +1,5 @@
-[submodule ".vim/pack/_/start/gruvbox"]
-	path = .vim/pack/_/start/gruvbox
 	# Check d73f9499a3080f553194c009d6ddfe572f0e1362
 	# before trying to be clever and change https to ssh again
-	url = https://github.com/matijs/gruvbox
 [submodule ".vim/pack/_/start/rust.vim"]
 	path = .vim/pack/_/start/rust.vim
 	url = https://github.com/rust-lang/rust.vim
@@ -15,3 +12,6 @@
 [submodule ".vim/pack/_/start/vim-fugitive"]
 	path = .vim/pack/_/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule ".vim/pack/_/start/rose-pine"]
+	path = .vim/pack/_/start/rose-pine
+	url = https://github.com/rose-pine/vim
