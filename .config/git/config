@@ -8,6 +8,7 @@
 	difft = -c diff.external=difft diff
 	fixup = commit --fixup=HEAD
 	log-no-tags = log --decorate-refs-exclude=refs/tags
+	please = push --force-with-lease
 	pushf = push --force-with-lease
 	remotes = remote --verbose
 	root = rev-parse --show-toplevel
