@@ -7,7 +7,6 @@
 	autosquash = -c sequence.editor=true rebase --interactive
 	difft = -c diff.external=difft diff
 	fixup = commit --fixup=HEAD
-	log-no-tags = log --decorate-refs-exclude=refs/tags
 	please = push --force-with-lease
 	pushf = push --force-with-lease
 	remotes = remote --verbose
@@ -40,6 +39,7 @@
 [log]
 	date = iso8601-local
 	decorate = full
+	excludeDecoration = refs/tags
 [merge]
 	conflictStyle = zdiff3
 	ff = only
