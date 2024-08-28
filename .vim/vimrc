@@ -141,3 +141,6 @@ noremap <up> <nop>
 noremap <right> <nop>
 noremap <down> <nop>
 noremap <left> <nop>
+" Make sure vim-prettier makes Prettier use a prettier config file if one is
+" present
+let g:prettier#config#config_precedence = 'prefer-file'
