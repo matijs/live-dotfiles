@@ -24,11 +24,11 @@ not how it's set up and it's not tested.
 ```
 
 > [!CAUTION]
-> The next command will overwrite local files. Make sure you know what
+> The next command **will** overwrite local files. Make sure you know what
 > you're doing.
 
 ```bash
-~ $ git reset --hard origin/main
+~ $ git reset --hard origin/dotfiles
 ~ $ unset GIT_DIR
 ```
 
