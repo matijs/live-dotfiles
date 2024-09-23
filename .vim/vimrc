@@ -21,6 +21,10 @@ set ruler
 " show a popup menu to autocomplete commands
 set wildmenu
 set wildoptions=pum
+set wildignore+=**/node_modules/**
+
+" enable fuzzy searching using `:find …`
+set path+=**
 
 " suppress the intro message (I) when starting vim without a file
 set shortmess=atI
