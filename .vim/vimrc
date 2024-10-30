@@ -57,6 +57,9 @@ set autoindent
 
 " highlight the line the cursor is on
 set cursorline
+" when entering insert mode, turn the cursorline off, when returning to normal
+" mode turn it back on
+autocmd InsertEnter,InsertLeave * set cursorline!
 
 " show invisible characters
 set list listchars=tab:⇥\ ,nbsp:_,trail:•,extends:»,precedes:«
