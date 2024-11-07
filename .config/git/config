@@ -8,7 +8,7 @@
 	difft = -c diff.external=difft diff
 	fixup = commit --fixup=HEAD
 	please = push --force-with-lease
-	purge = clean -dfX
+	purge = clean -dfX -- :/
 	remotes = remote --verbose
 	root = rev-parse --show-toplevel
 	whoami = config --get user.email
