@@ -17,7 +17,9 @@ not how it's set up and it's not tested.
 ```bash
 ~ $ export GIT_DIR="${HOME}/.dotfiles"
 ~ $ git --work-tree="${HOME}" init
-~ $ git config status.showUntrackedFiles no
+# versions of git before 2.46.0 do not know the `set` subcommand in the command
+# below so leave it out
+~ $ git config set status.showUntrackedFiles no
 # substitute the correct URL in the next command
 ~ $ git remote add origin git@github.com:matijs/dotfiles
 ~ $ git fetch
