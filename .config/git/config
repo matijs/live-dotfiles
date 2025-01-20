@@ -33,7 +33,7 @@
 [gpg]
 	format = ssh
 [help]
-	autoCorrect = 1
+	autoCorrect = prompt
 [init]
 	defaultBranch = main
 [log]
