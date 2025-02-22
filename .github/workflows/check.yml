@@ -6,4 +6,4 @@ jobs:
     name: Check
     runs-on: ubuntu-latest
     steps:
-      - uses: matijs/no-fixups-action@ce01ac8ac99aa727e70cc55097d3602346b09b31 #v1.0.3
+      - uses: matijs/no-fixups-action@e80ec9a460eb369f99385d0a11347f28da6ca0f6 #v1.1.1
